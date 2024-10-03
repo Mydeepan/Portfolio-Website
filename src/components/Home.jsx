@@ -3,6 +3,7 @@ import photo from '../assets/undraw_Coding_re_iv62-removebg-preview.png'
 import { useEffect,useState } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import mydeepanResume from '../assets/Mydeepan-CV.pdf'
 
 
 export const Home = ({darkMoon,setDarkMoon}) => {
@@ -36,7 +37,7 @@ export const Home = ({darkMoon,setDarkMoon}) => {
           <h4>Hello,I'm</h4>
           <h1 style={darkMoon ? {color:"gold" } : {color:"#4834d4"}}>Mydeepan</h1>
           <h3>{displayedText || "Frontend Developer"}</h3>
-          <button className={'light-button'}><a href="#">Download CV</a></button>
+          <button className={'light-button'}><a href={mydeepanResume} download={'My-CV'}>Download CV</a></button>
           <div className="link-profiles">
             <a  href="https://www.linkedin.com/in/mydeepan/"><img width="48" height="48" src="https://img.icons8.com/fluency/48/linkedin.png" alt="linkedin"/></a>
             <a  href="https://github.com/Mydeepan?tab=repositories"> <img width="48" height="48" src="https://img.icons8.com/color/48/github--v1.png" alt="github--v1"/></a>

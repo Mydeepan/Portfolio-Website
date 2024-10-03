@@ -69,7 +69,7 @@ export const Project = ({darkMoon}) => {
               <h4>Recipe Website Design</h4>
             </div>
             <p>Recipe Website Design features organized sections for ingredients, instructions, and images to make cooking easy and accessible.</p>
-            <button className={ darkMoon ?'dark-btn-project btn-project':'btn-project'}><a className={darkMoon ? 'dark-link link' : "link" } href="https://github.com/Mydeepan/responsive-recipe-website">Click Here</a></button>
+            <button className={ darkMoon ?'dark-btn-project btn-project':'btn-project'}><a className={darkMoon ? 'dark-link link' : "link" } href="https://recipe-website-css-js.netlify.app/">Click Here</a></button>
           </div>
           <div data-aos="zoom-in" className="project pro-09" >
             <div className="pro">
